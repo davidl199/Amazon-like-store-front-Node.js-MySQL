@@ -2,6 +2,9 @@
 
 This application is an Amazon - like Store Front command line appication developed using Node.js and MySQL.
 
+`Link to video showing the application running:`
+https://drive.google.com/file/d/1LXisSXktYjrwu56R2BdT8B_8aIMGRnbJ/view?usp=sharing
+
 # How the program works
 
 From the command line you can run the following command.
@@ -17,11 +20,12 @@ From the command line you can run the following command.
 4. Once you have placed your order, the application should check if the store has enough of the product to meet the your purchase request.
 
    * If not, the app will log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
-
 5. However, if the store does have enough of the product, your order should be fulfilled.
+
    * The app will then display the total cost of your purchase.
 
 # npm modules used
 1. `mysql`
 2. `inquirer`
 3. `cli-table2`
+
